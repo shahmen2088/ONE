@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6dcb1781a3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header header--fixed active" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                    <a href="#" class="nav__link">Каталог</a>
+                    <a href="#" class="nav__link">Доставка</a>
+                    <a href="#" class="nav__link">Оплата</a>
+                    <a href="#" class="nav__link">Контакты</a>
+                    <a href="#" class="nav__link">О компании</a>
+                </nav>
+
+                <div class="menu-burger__header">
+                    <span>Menu</span>
+                </div>
+
+                <form class="search" action="/" method="get">
+                    <input class="search__input" id="search-input" name="search" placeholder="Поиск по названию картины" type="text">
+                    <ul id="search-results"></ul>
+                    <button class="search__btn" type="submit">Найти</button>
+                </form>
+            </div>
+        </div><!--container-->
+    </header>
+    <section class="cards" id="cards">
+        <div class="container">
+            <div class="cards__name">Картины эпохи Возрождения</div>
+            <div class="cards__inner">
+                <div class="card">
+                    <div class="card__top">
+                        <a href="#">
+                            <img class="card__image" src="img/Card/Рождение Венеры.png" alt="Рождение Венеры">
+                        </a>
+                    </div>
+                    <div class="card__bottom">
+                        <a class="card__name" href="#">«Рождение Венеры» Сандро Боттичелли</a>
+                        <div class="card__info">
+                            <div class="card__price">
+                                <div class="card__price card__price--common">
+                                    <del><span>2 000 000$</span></del>
+                                </div>
+                                <div class="card__price card__price--discount">1 000 000$</div>
+                            </div>
+                            <button class="card__buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__top">
+                        <a href="#">
+                            <img class="card__image" src="img/Card/Тайная вечеря.png" alt="Рождение Венеры">
+                        </a>
+                    </div>
+                    <div class="card__bottom">
+                        <a class="card__name" href="#">«Тайная вечеря» Леонардо да Винчи</a>
+                        <div class="card__info">
+                            <div class="card__price">
+                                <div class="card__price card__price--common">
+                                    <del><span></span></del>
+                                </div>
+                                <div class="card__price card__price--discount">3 000 000$</div>
+                            </div>
+                            <button class="card__buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__top">
+                        <a href="#">
+                            <img class="card__image" src="img/Card/Сотворение Адама.png" alt="Рождение Венеры">
+                        </a>
+                    </div>
+                    <div class="card__bottom">
+                        <a class="card__name" href="#">«Сотворение Адама»
+                            Микеланджело</a>
+                        <div class="card__info">
+                            <div class="card__price">
+                                <div class="card__price card__price--common">
+                                    <del><span>6 000 000$</span></del>
+                                </div>
+                                <div class="card__price card__price--discount">5 000 000$</div>
+                            </div>
+                            <button class="card__buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__top">
+                        <a href="#">
+                            <img class="card__image" src="img/Card/Урок анатомии.png" alt="Рождение Венеры">
+                        </a>
+                    </div>
+                    <div class="card__bottom">
+                        <a class="card__name" href="#">«Урок анатомии» Рембрандт</a>
+                        <div class="card__info">
+                            <div class="card__price">
+                                <div class="card__price card__price--common">
+                                    <del><span></span></del>
+                                </div>
+                                <div class="card__price card__price--discount">1 000 000$</div>
+                            </div>
+                            <button class="card__buy">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--container-->
+    </section>
+
+    <footer class="site__footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <div class="footer__links">
+                        <a href="#" class="footer__link">Каталог</a>
+                        <a href="#" class="footer__link">Доставка</a>
+                        <a href="#" class="footer__link">Оплата</a>
+                        <a href="#" class="footer__link">Контакты</a>
+                        <a href="#" class="footer__link">О компании</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__contacts">
+                        <a class="footer__phonnumber" href="#">
+                            <i class="fa-solid fa-phone"></i>
+                            +7(812)555-55-55</a>
+                        <a class="footer__address" href="#">
+                            <i class="fa-solid fa-location-dot"></i>
+                            г. Санкт-Петербург, ул. Ефимова, 3</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--container-->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
